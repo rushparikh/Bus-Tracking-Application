@@ -5,6 +5,6 @@ The mobile app will prompt the user for bus service (28X, 71B, 71D, etc) and the
 The user selects the bus number, direction (Inbound/Outbound) and the bus stop and depending on the selection the App will display the next arrival time for that service.
 
 
-Backend: Java Servlet
-Dashboard: JSP pages
+Backend: Java Servlet,
+Dashboard: JSP pages and
 MongoDB to store user actions
