@@ -31,7 +31,7 @@ public class GetPrediction {
             if(doc == null) {
                 return null;
             }
-            NodeList nl = doc.getElementsByTagName("prd"); //Gets an array of nodes for the next bust services
+            NodeList nl = doc.getElementsByTagName("prd"); // Gets an array of nodes for the next bust services
             for(int i=0; i<nl.getLength(); i++){
                 Node node = nl.item(i);
                 if(node instanceof Element) {
